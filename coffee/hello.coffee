@@ -1,4 +1,4 @@
 hello = ->
-    console.log("Hello World by Coffee")
+    console.log("コーヒースクリプトを使って ようこそ世界へ")
 
 hello()
