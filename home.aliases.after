@@ -1,0 +1,24 @@
+alias ..='cd ..'
+alias ...='cd ../../'
+alias ....='cd ../../../'
+alias .....='cd ../../../../'
+alias ......='cd ../../../../../'
+
+alias mv='mv -i'
+alias cp='cp -i'
+alias ln='ln -i'
+alias rm='rm -I --preserve-root'
+
+
+alias sai="sudo apt install -y"
+alias sau="sudo apt update"
+alias update="sudo apt update"
+alias upgrade="sudo apt upgrade -y"
+alias refreshrc="source ~/.zshrc"
+
+alias :q="exit"
+alias ext="exit"
+alias xt="exit"
+alias by="exit"
+alias nowip='curl ifconfig.me'
+alias psfree2='ps auwfux | less -S'
