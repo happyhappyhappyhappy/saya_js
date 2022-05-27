@@ -1,0 +1,2 @@
+console.log(firstName,lastName,country,city,age,isMarried)
+console.log()
