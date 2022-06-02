@@ -17,6 +17,25 @@ for(let j=0;j<6;j++){
 }
 console.log(ans2)
 
+// Problem2 別解
+// Numberオブジェクトを使う
+
 // Problem3
 // 数値なので文字列より楽かも
 // 数値→文字列のキャストが必要
+console.log("2-3")
+var ans3="rgb("
+for(let j=0;j<3;j++){
+    ans3=ans3+String(Math.floor(Math.random()*256))
+    if(j!=2){
+        ans3 = ans3 + ","
+    }
+    else{
+        ans3=ans3+")"
+    }
+}
+console.log(ans3)
+
+// Problem4
+problem4d=["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
+// TODO: 文字数を使った配列を出す
