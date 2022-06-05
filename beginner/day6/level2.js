@@ -1,3 +1,6 @@
+
+
+
 let asciidic="0123456789abcdefghijklmnopqrstuvwxyz"
 // console.log(asciidic.charAt(11))
 var ans16=""
@@ -37,5 +40,26 @@ for(let j=0;j<3;j++){
 console.log(ans3)
 
 // Problem4
-problem4d=["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
-// TODO: 文字数を使った配列を出す
+// problem4d=["ALBANIA", "BOLIVIA", "CANADA", "DENMARK", "ETHIOPIA", "FINLAND", "GERMANY", "HUNGARY", "IRELAND", "JAPAN", "KENYA"]
+
+var answer4d=[]
+const countries = [
+    'Albania',
+    'Bolivia',
+    'Canada',
+    'Denmark',
+    'Ethiopia',
+    'Finland',
+    'Germany',
+    'Hungary',
+    'Ireland',
+    'Japan',
+    'Kenya'
+  ]
+var answers4d=[]
+for(let j=0;j<countries.length;j++){
+    answer4d.push(countries[j])
+}
+console.log(answer4d) 
+
+// TODO Problem5

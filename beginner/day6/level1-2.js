@@ -1,4 +1,4 @@
-// TODO: Problem15
+// Problem15
 // 一定範囲で数字を出してそれを文字(アスキー)化かな
 // https://pisuke-code.com/js-create-non-overlap-randoms/
 // 難しい… 数値と小英字の組み合わせがランダムで掛ける物か
