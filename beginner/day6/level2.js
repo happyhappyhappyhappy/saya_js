@@ -1,4 +1,4 @@
-
+// https://github.com/Asabeneh/30-Days-Of-JavaScript/blob/master/06_Day_Loops/06_day_loops.md#exercises-level-2
 
 
 let asciidic="0123456789abcdefghijklmnopqrstuvwxyz"
@@ -62,4 +62,38 @@ for(let j=0;j<countries.length;j++){
 }
 console.log(answer4d) 
 
-// TODO Problem5
+// Problem5
+var answer5d=[]
+for(let j=0;j<countries.length;j++){
+    answer5d.push(countries[j].length)
+}
+console.log(answer5d)
+
+// Problem6
+var answer6d=[]
+for(let j=0;j<countries.length;j=j+1){
+    var eachCountry=[]
+    eachCountry.push(countries[j])
+    eachCountry.push(countries[j].substring(0,3).toUpperCase())
+    eachCountry.push(countries[j].length)
+    answer6d.push(eachCountry)
+}
+console.log(answer6d)
+
+// Problem7
+var answer7=[]
+for(let j=0;j<countries.length;j++){
+    if(countries[j].endsWith("land")){
+        answer7.push(countries[j])
+    }
+}
+console.log(answer7)
+
+// Problem8
+var longCountry=0
+for(let j=1;j<countries.length;j++){
+    if(countries[j].length > countries[longCountry].length){
+        longCountry = j
+    }
+}
+console.log(countries[longCountry])
