@@ -97,3 +97,13 @@ for(let j=1;j<countries.length;j++){
     }
 }
 console.log(countries[longCountry])
+
+// Problem8
+// iaを含む文字列を列挙
+var  answer8 = []
+for(let j=0;j<countries.length;j++){
+    if(countries[j].includes("ia")){
+        answer8.push(countries[j])
+    }
+}
+console.log(answer8)
